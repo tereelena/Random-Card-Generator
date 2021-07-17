@@ -14,15 +14,25 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <div class="card">
+        <div class="arriba"></div>
+        <div class="medio"></div>
+        <div class="abajo"></div>
+      </div>
+      <p></p>
+      <div class="container-fluid text-center">
+        <label for="alto"> Tipee Altura:</label>
+        <input type="text" id="alto" name="alto" required />
+        <label for="alto">Tipee Ancho:</label>
+        <input type="text" id="ancho" name="ancho" required />
+        <button
+          type="button"
+          class="btn btn-secondary btn-sm"
+          id="mybtn"
+          onclick="myFunction()"
+        >
+          +1
+        </button>
       </div>
     </div>
   </body>
